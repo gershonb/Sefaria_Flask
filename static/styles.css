@@ -1,0 +1,192 @@
+@font-face {
+  font-family: TaameyFrank;
+  src: url(fonts/TaameyFrankCLM-Medium.ttf);
+}
+
+
+body {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto",
+    "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fafafa;
+}
+.top{
+margin: 0px;
+padding: 10px;
+  background-color:rgb(230, 228, 228);
+  box-sizing: border-box;
+  box-shadow:0px 0px 5px rgba(128, 128, 128, 0.555);
+}
+.english_css{
+color: grey;
+}
+.hebrew_css{
+font-family: "TaameyFrank";
+font-size: 28px;
+}
+table,
+th,
+td {
+  border: 1px solid #f1f1f1;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+
+textarea {
+  font-family: Arial, sans-serif;
+}
+
+.mode {
+  font-size: 18px;
+}
+
+.highlight {
+  /* background-color: yellow; */
+  text-decoration: underline;
+}
+#h_op{
+  background-color: rgb(240, 240, 240);
+}
+
+input:not(disabled) {
+  font-weight: bold;
+  color: black;
+}
+
+button, #submit {
+  background-color: #4caf50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 11px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #318134; /* Green */
+  color: white;
+
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+input[type="radio"] {
+  position: relative;
+  z-index: 1;
+}
+
+input[type="radio"] + label {
+  padding: 8px 4px 8px 30px;
+  margin-left: -30px;
+}
+
+input[type="radio"]:checked + label {
+  background: #0078d4;
+  color: #ffffff;
+}
+.voices {
+  position: relative;
+  margin: 20px auto;
+}
+#Voices {
+  position: relative;
+  bottom: 30px;
+  font-family: "Open Sans", "Helvetica Neue", "Segoe UI", "Calibri", "Arial",
+    sans-serif;
+  font-size: 18px;
+  color: #60666d;
+}
+
+
+
+
+
+.accordion {
+  background-color: rgba(255, 255, 255, 0);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin:auto;
+
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(80, 80, 80);
+
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.highlighter_options{
+  margin:auto;
+}
+
+
+#url_input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow:0px 0px 5px rgba(128, 128, 128, 0.555);
+  outline:none;
+}
+
+#Sefaria_text{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vw;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.555);
+    background: #ffffff;
+}
