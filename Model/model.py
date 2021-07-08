@@ -14,7 +14,7 @@ from azure.cognitiveservices.speech import AudioDataStream, SpeechConfig, Speech
 from azure.cognitiveservices.speech.audio import AudioOutputConfig
 
 # Set connection
-speech_key, service_region = "7cfbb0338ef045bc824ade056a7282f9", "eastus"
+speech_key, service_region = "", "eastus"
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
 # Creates a speech synthesizer using the default speaker as audio output.
