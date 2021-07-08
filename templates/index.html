@@ -14,7 +14,6 @@
     <script src="https://aka.ms/csspeech/jsbrowserpackageraw" defer></script>
     <script src="static/ajax.js" defer></script>
     <script src="static/data.js" defer></script>
-    <script src="static/script.js" defer></script>
     <script src="static/other.js" defer></script>
 </head>
 
@@ -30,15 +29,15 @@
     </div>
 
     <h2 id="top">Copy and paste a web url from Sefaria</h2>
+    </div>
     <form action="/" method="post">
         <input type="text" id="url_input" name="url_input"
                placeholder="eg. https://www.sefaria.org/Genesis.1?lang=bi&aliyot=0">
-        <input id="submit" type="submit" value="Submit">
-        <div>
+        <div><!--
             <button id="startSynthesisAsyncButton">Start synthesis</button>
             <button id="pauseButton">Pause</button>
             <button id="resumeButton">Resume</button>
-            <!--<div class="advanced_Settings"></div>
+            <div class="advanced_Settings"></div>
                 <label>
                     <input type="checkbox" id="toggle"/>
                     "Hashem"
@@ -56,7 +55,7 @@
             </div>
         </div>
     </form>
-</div>
+
 <p id="eventsDiv"></p>
 
 
